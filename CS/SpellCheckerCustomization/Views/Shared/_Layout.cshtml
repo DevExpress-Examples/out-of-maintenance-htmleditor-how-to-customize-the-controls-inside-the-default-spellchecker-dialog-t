@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>@ViewBag.Title</title>
+
+    @Html.DevExpress().GetStyleSheets(
+        new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+                new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor }
+    )
+    @Html.DevExpress().GetScripts(
+        new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new Script { ExtensionSuite = ExtensionSuite.Editors },
+        new Script { ExtensionSuite = ExtensionSuite.GridView },
+                new Script { ExtensionSuite = ExtensionSuite.HtmlEditor }
+    )
+    <style type="text/css">
+        .btn-custom {
+            width: 100% !important;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            background-image: none !important;
+            background-color: dimgray;
+            color: white;
+            font-size: larger;
+        }
+
+        .dxwscDlgContentSCFormContainer .dxbButtonHover_DevEx {
+            background-color: red !important;
+            background-image: none !important;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+    @RenderBody()
+</body>
+</html>
