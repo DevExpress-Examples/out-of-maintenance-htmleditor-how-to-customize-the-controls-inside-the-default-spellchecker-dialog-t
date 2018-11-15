@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/SpellCheckerCustomization/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/SpellCheckerCustomization/Controllers/HomeController.vb))
+* [MyHtmlEditorExtension.cs](./CS/SpellCheckerCustomization/Models/MyHtmlEditorExtension.cs) (VB: [MyHtmlEditorExtension.vb](./VB/SpellCheckerCustomization/Models/MyHtmlEditorExtension.vb))
+* [_HtmlEditorPartial.cshtml](./CS/SpellCheckerCustomization/Views/Home/_HtmlEditorPartial.cshtml)
+* [Index.cshtml](./CS/SpellCheckerCustomization/Views/Home/Index.cshtml)
+* [_Layout.cshtml](./CS/SpellCheckerCustomization/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # HtmlEditor - How to customize the controls inside the default SpellChecker dialog
 
 
