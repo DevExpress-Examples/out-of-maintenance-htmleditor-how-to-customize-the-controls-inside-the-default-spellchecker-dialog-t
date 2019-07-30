@@ -9,7 +9,7 @@
 <!-- default file list end -->
 # HtmlEditor - How to customize the controls inside the default SpellChecker dialog
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t493023)**
+**[[Run Online]](https://codecentral.devexpress.com/t493023/)**
 <!-- run online end -->
 
 
