@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128552296/16.2.3%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T493023)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -13,9 +8,6 @@
 * [_Layout.cshtml](./CS/SpellCheckerCustomization/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # HtmlEditor - How to customize the controls inside the default SpellChecker dialog
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t493023/)**
-<!-- run online end -->
 
 
 <p>In the HtmlEditor extension, you can customize spell checking, add new dictionaries, change the spell checker form caption, but further customizations are not possible. This example demonstrates how to create a SpellCheckerForm class descendant to access and customize controls on the form.<br><br>Note that in this scenario, you'll need to create MVXcHtmlEditor and HtmlEditorExtension descendants. An MVXcHtmlEditor class descendant should have the same class name as the MVXcHtmlEditor class due to the specifics of the theming mechanism. </p>
